@@ -1,0 +1,22 @@
+const mydate = new Date()
+// console.log(mydate)
+// console.log(mydate.toString())
+// console.log(mydate.toDateString())
+// console.log(mydate.toLocaleString())
+// console.log(mydate.toJSON())
+// console.log(mydate.toLocaleDateString())
+// console.log(mydate.toISOString())
+// Date is a Object.
+//const myCreatedDate = new Date(2025 , 3 ,9 )
+//console.log(myCreatedDate.toLocaleString())
+let myCreatedDate = new Date("06-23-2005")
+//console.log(myCreatedDate.toLocaleString())
+let mytimeStamp = Date.now()
+//console.log(Math.floor(mytimeStamp/1000))
+let newDate = new Date()
+console.log(newDate)
+console.log(newDate.getMonth() + 1)
+console.log(newDate.getDay())
+newDate.toLocaleString('default' , {
+    weekday :"long",
+})
